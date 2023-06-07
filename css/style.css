@@ -1,0 +1,142 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.col-sm-12 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Layout {
+    border: 1px solid white;
+    color: white;
+    height: 40rem;
+    /* margin: 20px; */
+    position: relative;
+}
+
+.cont-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    padding: 50px 20px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: aqua;
+}
+
+
+img.usericon {
+    width: 2rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+
+.msgbodybground {
+    background-image: url(../img/background-img.jpg);
+    height: 37rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    padding: 1rem;
+
+}
+
+.msgbody {
+    padding-bottom: 1rem;
+}
+
+.msgcard {
+    position: relative;
+    width: 90%;
+}
+
+.frompoint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 0;
+    height: 0; */
+    border-bottom: 0px;
+    border-left: 20px solid transparent;
+    border-top: 20px solid aqua;
+    border-right: 0px;
+}
+
+
+.msgcards {
+    position: relative;
+    width: 90%;
+    float: right;
+    /* display: flex;
+    flex-direction: row-reverse; */
+}
+
+.topoint {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* width: 0;
+    height: 0; */
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top: 20px solid aqua;
+    border-right: 20px solid transparent;
+}
+
+.inputsend {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    /* background-color: aquamarine; */
+    /* padding: 0.5rem; */
+    position: absolute;
+    bottom: 10px;
+    width: 95%;
+}
+
+input.form-control.textmsg {
+    border-radius: 20px;
+    margin-right: 0.5rem;
+}
+
+.sendbtn {
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+i.fa.fa-paper-plane {
+    line-height: unset;
+}
+
+::after,
+::before {
+    box-sizing: unset;
+}
+
+.msgbg {
+    background-color: white;
+    padding: 1rem 1rem 0.5rem;
+    border-radius: 10px;
+}
+
+.message {
+    font-size: 12px;
+    color: black;
+}
+p{
+    margin-bottom: 0;
+}
